@@ -43,8 +43,8 @@ def validate_api_keys() -> Dict[str, bool]:
     from config.settings import GROQ_API_KEY, HUGGINGFACE_TOKEN
     
     return {
-        'groq': bool(GROQ_API_KEY and GROQ_API_KEY != 'xyz'),
-        'huggingface': bool(HUGGINGFACE_TOKEN and HUGGINGFACE_TOKEN != 'rst')
+        'groq': bool(GROQ_API_KEY and GROQ_API_KEY != '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'),
+        'huggingface': bool(HUGGINGFACE_TOKEN and HUGGINGFACE_TOKEN != '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')
     }
 
 def create_data_directories():
